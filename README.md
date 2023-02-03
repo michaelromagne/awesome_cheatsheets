@@ -1,9 +1,7 @@
 # Unshameful cheatsheets
 
 </br>
-<p align="center">
-  <img src="/img/notes.png" width=100 />
-</p>
+<img src="/img/notes.png" width=100 />
 </br>
 
 - Data Analysis [cheatsheet](data_analysis.md)
