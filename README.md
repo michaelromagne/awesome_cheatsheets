@@ -10,6 +10,6 @@
 - Unix [cheatsheet](unix_tricks.md)
 
 - Kubectl [cheatsheet](kubectl_newbie.md)
-- 
+
 </p>
 
