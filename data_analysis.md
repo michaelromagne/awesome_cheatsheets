@@ -1,7 +1,7 @@
 # (WIP) Data Analysis
 
 <p align="center">
-  <img src="/img/python.png" width=300 />
+  <img src="/img/python.png" width=150 />
 </p>
 
 Maybe I should put my favorite viz or data analysis commands somewhere to stop harassing stackoverflow or scrolling documentations for the very same questions.
