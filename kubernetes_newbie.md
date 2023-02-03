@@ -1,5 +1,7 @@
 # Kubernetes Cheat Sheet
 
+<img src /img/kubectl2.png>
+
 Recently I began working with [Okteto](https://github.com/okteto/okteto) to spawn VMs in a Kubernetes cluster and train Fraud Detection models with more computing power, in a replicable environment.
 It was the occasion for me to start playing with Kubernetes. I learned a few useful commands using [RehanSaeed cheatsheet](https://github.com/RehanSaeed/Kubernetes-Cheat-Sheet).
 
