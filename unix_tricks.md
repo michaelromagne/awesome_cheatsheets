@@ -7,7 +7,6 @@
 
 A few useful tools can be found here (or commands I have trouble memorizing).
 
-## Cluster info
 
 - glances is an insane monitoring tool to view CPU, memory, disk, network usage, running processes... [link here](https://github.com/nicolargo/glances)
 ```
