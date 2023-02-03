@@ -2,7 +2,7 @@
 
 </br>
 <p align="center">
-  <img src="/img/notes.png" width=150 />
+  <img src="/img/notes.png" width=100 />
 </p>
 </br>
 
