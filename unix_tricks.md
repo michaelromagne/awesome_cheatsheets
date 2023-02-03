@@ -1,9 +1,10 @@
 # UNIX Cheat Sheet
 
+</br>
 <p align="center">
   <img src="/img/unix.png" width=700 />
 </p>
-
+</br>
 
 A few useful tools can be found here (or commands I have trouble memorizing).
 
