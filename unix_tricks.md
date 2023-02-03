@@ -1,7 +1,7 @@
 # UNIX Cheat Sheet
 
 <p align="center">
-  <img src="/img/unix.png" width=300 />
+  <img src="/img/unix.png" width=700 />
 </p>
 
 
