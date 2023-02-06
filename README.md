@@ -1,4 +1,4 @@
-# Unshameful cheatsheets
+# Awesome cheatsheets
 
 </br>
 <p align="center">
