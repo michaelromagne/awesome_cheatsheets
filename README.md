@@ -7,7 +7,9 @@
 </br>
 
 
-- Data Analysis [cheatsheet](data_analysis.md)
+- (WIP) Data Analysis [cheatsheet](data_analysis.md)
+
+- (WIP) Python [cheatsheet](python.md)
 
 - Unix [cheatsheet](unix_tricks.md)
 
