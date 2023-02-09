@@ -1,4 +1,4 @@
-# (WIP) Python ecosystem cheatsheets
+# (WIP) Python cheatsheets
 
 
 ## Pyenv + Poetry
