@@ -42,6 +42,13 @@ df.sort_values(by='sorting_col', key=abs, ascending=False)
 sns.displot(data=merge_df_cg, x="x_col", hue="group", kind="kde",....)
 ```
 
+## Matplotlib.pyplot as plt
+
+- Rotate x axis :
+```
+plt.xticks(rotation=90)
+```
+
 ## Model explainability
 
 I like the [explainerdashboard package](https://explainerdashboard.readthedocs.io/en/latest/) for its flexibility and how it's quick to use. If you want to dig a bit in your model decision without having the time to design a proper dashboard, it's pretty sure that they have a minimal solution for you ready in one of their dashboards.
