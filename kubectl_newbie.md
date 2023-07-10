@@ -80,4 +80,13 @@ If you delete delete a pod without deleting its higher level controller (deploym
 
 Some commands exist for scaling or autoscaling, but I have not tried yet. To be tested
 
+## GPU monitoring
+
+Find the node my container is running on with kubectl get pods then find the exporter that is on the identified node with:
+```
+kubectl get pods -n gpu-operator -l app=nvidia-dcgm-exporter -o wide
+```
+
+And filter accordingly in our gpu monitoring dashboard in the instance filter
+
 
