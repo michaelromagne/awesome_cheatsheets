@@ -63,6 +63,11 @@ kubectl describe pods <POD_ID>
 kubectl get pods --all-namespaces -o wide |grep delta-sandbox-prod-worker-gpu|grep -v kube-system|grep -v gpu-operator|grep -v prometheus|grep -v cattle|grep Running
 ```
 
+- Get a shell running inside a pod
+```
+kubectl exec -it <pod_name> -n <namespace> -- /bin/bash
+```
+
 ## Logs
 
 - Get logs for a pod or a service
