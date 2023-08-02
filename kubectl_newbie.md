@@ -4,8 +4,7 @@
   <img src="/img/kubectl2.png" width=300 />
 </p>
 
-Recently I began working with [Okteto](https://github.com/okteto/okteto) to spawn VMs in a Kubernetes cluster and train Fraud Detection models with more computing power, in a replicable environment.
-It was the occasion for me to start playing with kubectl. I learned a few useful commands using [RehanSaeed cheatsheet](https://github.com/RehanSaeed/Kubernetes-Cheat-Sheet).
+By working with [Okteto](https://github.com/okteto/okteto) then running jobs on Kubernetes clusters, I started to use kubectl. I learned a few useful commands using [RehanSaeed cheatsheet](https://github.com/RehanSaeed/Kubernetes-Cheat-Sheet) and I am centralizing the most common commands here.
 
 I'll centralize the few commands I actually use here.
 
@@ -57,6 +56,11 @@ kubectl get pods (--all-namespaces) (-n namespace)
 - Describe a pod
 ```
 kubectl describe pods <POD_ID>
+```
+
+- Get all pods running on gpu nodes
+```
+kubectl get pods --all-namespaces -o wide |grep delta-sandbox-prod-worker-gpu|grep -v kube-system|grep -v gpu-operator|grep -v prometheus|grep -v cattle|grep Running
 ```
 
 ## Logs
