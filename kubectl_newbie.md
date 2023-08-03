@@ -96,6 +96,11 @@ Find the node my container is running on with kubectl get pods then find the exp
 kubectl get pods -n gpu-operator -l app=nvidia-dcgm-exporter -o wide
 ```
 
+## Get memory and cpu used by pod
+
+```
+kubectl top pod data-snapshotter-vmpv6-x97jh -n fern --containers
+```
 And filter accordingly in our gpu monitoring dashboard in the instance filter
 
 
