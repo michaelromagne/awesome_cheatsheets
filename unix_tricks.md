@@ -33,7 +33,7 @@ C-b " # Split vertically
 
 - Know storage on machine
 ```
-df
+df (-h)
 ```
 
 - know RAM memory
