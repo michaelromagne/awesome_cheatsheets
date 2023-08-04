@@ -53,7 +53,7 @@ kubectl port-forward svc/<service_name> <port>
 kubectl get pods (--all-namespaces) (-n namespace)
 ```
 
-- Describe a pod
+- Describe a pod (get info from orchestrator, works if pod is evicted)
 ```
 kubectl describe pods <POD_ID>
 ```
