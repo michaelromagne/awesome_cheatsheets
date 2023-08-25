@@ -39,9 +39,12 @@ df.sort_values(by='sorting_col', key=abs, ascending=False)
 
 - Seaborn [displot](https://seaborn.pydata.org/generated/seaborn.displot.html) is neat to vizualize distributions in different format. It can also do kernel density estimations that can be great for some use cases:
 ```
-sns.displot(data=merge_df_cg, x="x_col", hue="group", kind="kde",....)
+sns.displot(data=df, x="x_col", hue="group", kind="kde",....)
 ```
 
+```
+sns.histplot(data=df, x="x_col", bins=n_bins)
+```
 ## Matplotlib.pyplot as plt
 
 - Rotate x axis :
