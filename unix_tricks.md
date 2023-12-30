@@ -42,8 +42,17 @@ free
 ```
 
 - know disk usage
+
+**Install ncdu and run it !**
+
 ```
 du -h
 du -hs YOUR_FOLDER_NAME # To see the full size (including whole content) of a folder in a directory
 du -c FOLDER  # memory of a folder only
+```
+
+- know ports in use:
+
+```
+sudo lsof -i -P -n | grep LISTEN
 ```
